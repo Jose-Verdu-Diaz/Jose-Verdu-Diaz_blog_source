@@ -1,5 +1,41 @@
 baseURL = "https://Jose-Verdu-Diaz.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-
+title = "José Verdú-Díaz"
 theme = "astatine"
+preserveTaxonomyNames = true
+rssLimit = 10
+paginate = 10
+pygmentsCodefences = true
+pygmentsStyle = "native"
+
+[taxonomies]
+    category = "categories"  
+    tag = "tags"
+
+[permalinks]
+    post = "/:slug/"
+
+[[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = -150
+    
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = -120
+
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = -130
+    
+[params]
+    description = "Jose Verdu-Diaz webpage"
+    authorName = "Jose Verdu-Diaz"
+    [params.imgname]
+        name = "img/profile.jpeg"
+        alt = "Profile picture"
+    
+[sitemap]
+  filename = "sitemap.xml"

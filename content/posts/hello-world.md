@@ -1,7 +1,9 @@
----
-title: "Hello World"
-date: 2022-09-17T13:18:29+01:00
-draft: false
----
++++
+date = "17-09-2022"
+title = "Hello World"
+slug = "hello-world"
+categories = [ "Post"]
+tags = ["Test"]
++++
 
-CONTENT
+Hello World!
