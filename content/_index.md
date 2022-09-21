@@ -1,6 +1,6 @@
 ---
 imgname: 
-  name: "img/profile.jpeg"
+  name: "img/index/profile.jpeg"
   alt: "Profile picture"
   type: image/jpeg
   
@@ -24,7 +24,7 @@ publications:
     title: "Accuracy of a machine learning muscle MRI-based tool for the diagnosis of muscular dystrophies"
     date: 2020
     journal: Neurology
-    image: img/neurology_N.png
+    image: img/index/neurology_N.png
     citation: "@article {article,
 	author = {Verdú-Díaz, José and Alonso-Pérez, Jorge and Nuñez-Peralta, Claudia and Tasca, Giorgio and Vissing, John and Straub, Volker and Fernández-Torrón, Roberto and Llauger, Jaume and Illa, Isabel and Díaz-Manera, Jordi},
 	title = {Accuracy of a machine learning muscle MRI-based tool for the diagnosis of muscular dystrophies},
@@ -52,4 +52,10 @@ publications:
 ---
 # Bio
 
-Hello! I'm a programmer, aspiring Data Scientist and Artifial Intelligence enthusiast. I have a broad field of interests, including machine/deep learning, image processing, cibersecurity, gaming, music production, photography and graphic design. I love finding problems and creating solutions, always willing to try and learn new technologies. My Open Source ethic pushed me to create this website, a place where I can share my work and inspire/help anyone.
+Hello! I'm a programmer, aspiring Data Scientist and Artificial Intelligence enthusiast. I have a broad field of interests, including machine/deep learning, image processing, cybersecurity, gaming, music production, photography and graphic design. I love finding problems and creating solutions, always willing to try and learn new technologies. My Open Source ethic pushed me to create this website, a place where I can share my work and inspire/help anyone.
+
+I'm currently working for the [University of Newcastle][1], in the [John Walton Muscular Dystrophy Research Centre][2], applying AI and other programming-based techniques to medical data.
+
+
+[1]: https://www.ncl.ac.uk/
+[2]: https://newcastle-muscle.org/

@@ -7,6 +7,8 @@ rssLimit = 10
 paginate = 10
 pygmentsCodefences = true
 pygmentsStyle = "native"
+enableemoji = true
+disqusShortname = "pepv"
 
 [taxonomies]
     category = "categories"  
@@ -31,10 +33,10 @@ pygmentsStyle = "native"
     weight = -130
     
 [params]
-    description = "Jose Verdu-Diaz webpage"
-    authorName = "Jose Verdu-Diaz"
+    description = "José Verdú-Díaz webpage"
+    authorName = "José Verdú-Díaz"
     [params.imgname]
-        name = "img/profile.jpeg"
+        name = "img/index/profile.jpeg"
         alt = "Profile picture"
     
 [sitemap]
