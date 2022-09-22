@@ -81,6 +81,11 @@ auth = spt.SpotifyOAuth(
 spotify = spt.Spotify(oauth_manager=auth)
 {{< /highlight >}}
 
+
+{{< load-plotly >}}
+{{< plotly json="/plotly/umap.json" height="800px">}}
+
+
 [1]: https://developer.spotify.com/documentation/web-api/
 [2]: https://en.wikipedia.org/wiki/Dimensionality_reduction
 [3]: https://arxiv.org/abs/1802.03426
