@@ -6,6 +6,8 @@ categories = [ "Post" , "Personal Projects" ]
 tags = [ "Spotify", "UMAP", "Python" ]
 +++
 {{< load-plotly >}}
+<link rel="stylesheet" href="/custom_css/custom.css" />
+
 
 I'm the kind of Spotify user that adds every single song to one single playlist and then complains about not being able to find what he wants to hear. One simple solution would be grouping songs in different playlists by mood, however, this solution is not exciting enough for me... Instead, I decided to create an app that takes all tracks in a playlist, "analyzes" and groups them by similarity in an interactive 3D graph, where you can click on a song and automatically play it on Spotify. Ok, maybe that was too much to digest, let's decompose the problem:
 

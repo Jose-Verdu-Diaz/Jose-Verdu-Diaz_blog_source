@@ -1,0 +1,49 @@
+@layer base {
+	code {
+		@apply text-base;
+		@apply rounded-sm;
+		@apply px-1;
+		@apply py-1;
+		@apply bg-zinc-600;
+		@apply dark:bg-zinc-900;
+	}
+
+	pre code {
+		@apply bg-transparent;
+		@apply text-sm;
+	}
+	
+	blockquote {
+		@apply bg-zinc-600;
+		@apply dark:bg-zinc-900;  
+		@apply m-8;
+		@apply py-2;
+		@apply border-l-4;
+		@apply border-slate-400;
+		@apply pl-4;
+		@apply pr-2;
+		@apply italic;
+		@apply font-serif;
+		@apply text-lg;
+		@apply after:content-[close-quote];
+		@apply after:text-5xl;
+		@apply before:text-5xl;
+		@apply before:text-slate-400;
+		@apply after:text-slate-400;
+		@apply after:leading-[.1em];
+		@apply before:leading-[.1em];
+		@apply before:mr-1;
+		@apply after:mr-1;
+		@apply after:align-[-.4em];
+		@apply before:align-[-.4em];
+		@apply before:content-[open-quote];
+	}
+	blockquote p {
+		@apply inline;
+	}
+}
+
+p > code {
+  color: #d4d4d8;
+  background-color: #202020;
+}
