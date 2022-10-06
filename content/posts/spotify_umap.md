@@ -480,7 +480,7 @@ Thank you for reading this post! I think this is an idea with a lot of potential
  - HDBSCAN also has multiple parameters to play with. I found good results with the ones I've chosen, but I didn't do exhaustive research.
  - Include new features, or exclude existing features, in the analysis.
 
-See you in the next one!
+See you at the next one!
 
 
 [1]: https://developer.spotify.com/documentation/web-api/
